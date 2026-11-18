@@ -31,5 +31,5 @@ Nenhuma. O projeto ainda não possui specs (`openspec/specs/` está vazio); esta
 - `src/App.jsx` deixa de ser o template e passa a conter o roteamento.
 - Novos arquivos: `src/api/itens.js`, `src/components/`, `src/pages/`.
 - `package.json`: novas dependências `react-router` (e script `api`); `json-server` já está instalado.
-- `vite.config.js`: proxy de `/itens` para o JSON Server.
+- `vite.config.js`: proxy de `/api` para o JSON Server (o app consome `/api/itens`).
 - `db.json`: seed com alguns itens de exemplo.
