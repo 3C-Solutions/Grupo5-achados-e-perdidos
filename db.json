@@ -1,0 +1,11 @@
+{
+  "itens": [
+    {
+      "id": "1",
+      "titulo": "Garrafa azul",
+      "descricao": "Garrafa térmica azul com adesivo",
+      "local": "Biblioteca",
+      "status": "perdido"
+    }
+  ]
+}
