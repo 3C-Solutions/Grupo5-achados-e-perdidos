@@ -2,25 +2,10 @@
   "itens": [
     {
       "id": "1",
-      "titulo": "Garrafa térmica azul",
-      "descricao": "Garrafa térmica azul com adesivo de viagem",
+      "titulo": "Garrafa azul",
+      "descricao": "Garrafa térmica azul com adesivo",
       "local": "Biblioteca",
       "status": "perdido"
-    },
-    {
-      "id": "2",
-      "titulo": "Chaveiro com duas chaves",
-      "descricao": "Chaveiro de metal com duas chaves pequenas",
-      "local": "Portaria",
-      "status": "achado"
-    },
-    {
-      "id": "3",
-      "titulo": "Casaco preto",
-      "descricao": "Casaco preto tamanho M esquecido após a aula",
-      "local": "Auditório",
-      "status": "achado"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }

@@ -6,10 +6,13 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': {
+      '/itens': {
         target: 'http://localhost:3000',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ''),
+        // Navegação do navegador continua servindo o SPA (rotas /itens e /itens/novo).
+        // Só requisições de dados (fetch) são encaminhadas ao JSON Server.
+        bypass: (req) =>
+          req.headers.accept?.includes('text/html') ? '/index.html' : undefined,
       },
     },
   },

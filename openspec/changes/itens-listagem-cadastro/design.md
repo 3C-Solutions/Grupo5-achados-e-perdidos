@@ -27,7 +27,7 @@ O projeto é um Vite + React 19 sem nenhuma tela funcional. O `db.json` já tem 
 
 ### Proxy do Vite para o JSON Server
 
-O app chama `/api/itens` e o Vite remove o prefixo `/api` e encaminha para `http://localhost:3000/itens`. O prefixo existe para não colidir com a rota do SPA: com um proxy direto em `/itens`, abrir `/itens/novo` no navegador cairia no JSON Server em vez do `index.html`. Alternativa descartada: apontar o `fetch` direto para `http://localhost:3000`, que exige CORS e deixa a URL do backend espalhada pelo código. Com proxy, o script `api` roda o JSON Server e o `dev` continua sendo o único comando do front.
+O app chama `/itens` na própria origem e o Vite encaminha para `http://localhost:3000`. Alternativa descartada: apontar o `fetch` direto para `http://localhost:3000`, que exige CORS e deixa a URL do backend espalhada pelo código. Com proxy, o script `api` roda o JSON Server e o `dev` continua sendo o único comando do front.
 
 ### Camada de API com erro normalizado
 
