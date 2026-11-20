@@ -7,8 +7,8 @@
 
 ## 2. Camada de API
 
-- [ ] 2.1 Criar `src/api/itens.js` com `listarItens()` e `criarItem(item)`, convertendo falha de rede ou resposta não-OK em `Error` com mensagem de exibição; verificar no console do navegador que `(await import('/src/api/itens.js')).listarItens()` retorna os 3 itens.
-- [ ] 2.2 Verificar o caminho de erro da camada de API parando o JSON Server e chamando `listarItens()`; deve rejeitar com mensagem legível, e não com erro cru de `fetch`.
+- [x] 2.1 Criar `src/api/itens.js` com `listarItens()` e `criarItem(item)`, convertendo falha de rede ou resposta não-OK em `Error` com mensagem de exibição; verificar no console do navegador que `(await import('/src/api/itens.js')).listarItens()` retorna os 3 itens.
+- [x] 2.2 Verificar o caminho de erro da camada de API parando o JSON Server e chamando `listarItens()`; deve rejeitar com mensagem legível, e não com erro cru de `fetch`.
 
 ## 3. Navegação
 
