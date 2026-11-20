@@ -3,7 +3,7 @@
 ## 1. Infraestrutura de dados
 
 - [x] 1.1 Adicionar o script `api` no `package.json` (`json-server --watch db.json --port 3000`) e o proxy de `/itens` no `vite.config.js`; verificar que `npm run api` responde `GET /itens` e que `npm run dev` acessa `/itens` sem erro de CORS.
-- [ ] 1.2 Substituir o seed do `db.json` por 3 itens que variem `local` e `status` (perdido/achado); verificar que `GET /itens` retorna 3 registros e que os acentos aparecem corretos no navegador.
+- [x] 1.2 Substituir o seed do `db.json` por 3 itens que variem `local` e `status` (perdido/achado); verificar que `GET /itens` retorna 3 registros e que os acentos aparecem corretos no navegador.
 
 ## 2. Camada de API
 
