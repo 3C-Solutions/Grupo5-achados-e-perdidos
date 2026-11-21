@@ -17,8 +17,8 @@
 
 ## 4. Listagem
 
-- [ ] 4.1 Implementar `ListaItens` buscando os dados via `listarItens()` com estados de carregando, vazio e preenchido; verificar que a mensagem de lista vazia aparece ao esvaziar o `db.json`.
-- [ ] 4.2 Implementar `ItemCard` exibindo título, local e situação; verificar que cada um dos 3 itens do seed aparece em um cartão com os três dados visíveis.
+- [x] 4.1 Implementar `ListaItens` buscando os dados via `listarItens()` com estados de carregando, vazio e preenchido; verificar que a mensagem de lista vazia aparece ao esvaziar o `db.json`.
+- [x] 4.2 Implementar `ItemCard` exibindo título, local e situação; verificar que cada um dos 3 itens do seed aparece em um cartão com os três dados visíveis.
 
 ## 5. Cadastro
 

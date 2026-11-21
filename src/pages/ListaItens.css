@@ -1,0 +1,30 @@
+.lista-itens {
+  padding: 24px;
+}
+
+.lista-itens-conteudo {
+  margin-top: 32px;
+}
+
+.itens-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.item-card {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.item-card p + p {
+  margin-top: 8px;
+}
