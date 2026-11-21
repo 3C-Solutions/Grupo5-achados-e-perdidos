@@ -12,8 +12,8 @@
 
 ## 3. Navegação
 
-- [ ] 3.1 Instalar `react-router` e configurar `BrowserRouter`/`Routes` em `App.jsx` com as rotas `/itens` e `/itens/novo`; verificar digitando as duas URLs no navegador e vendo cada página renderizar.
-- [ ] 3.2 Adicionar na listagem o link para `/itens/novo` e, no cadastro, o link de volta para `/itens`; verificar navegando nos dois sentidos sem recarregar a página.
+- [x] 3.1 Instalar `react-router` e configurar `BrowserRouter`/`Routes` em `App.jsx` com as rotas `/itens` e `/itens/novo`; verificar digitando as duas URLs no navegador e vendo cada página renderizar.
+- [x] 3.2 Adicionar na listagem o link para `/itens/novo` e, no cadastro, o link de volta para `/itens`; verificar navegando nos dois sentidos sem recarregar a página.
 
 ## 4. Listagem
 
