@@ -32,8 +32,14 @@
 
 ## 7. Fechamento
 
-- [ ] 7.1 Conferir a estrutura final (`src/api`, `src/components`, `src/pages`) e rodar `npm run lint`; verificar que o comando termina sem erros e que nenhum `fetch` está fora de `src/api/itens.js`.
-- [ ] 7.2 Commitar código e artefatos do change; verificar com `git status` limpo e `git log --stat` mostrando `openspec/changes/itens-listagem-cadastro/` junto das mudanças em `src/`.
+- [x] 7.1 Conferir a estrutura final (`src/api`, `src/components`, `src/pages`) e rodar `npm run lint`; verificar que o comando termina sem erros e que nenhum `fetch` está fora de `src/api/itens.js`.
+- [x] 7.2 Commitar código e artefatos do change; verificar com `git status` limpo e `git log --stat` mostrando `openspec/changes/itens-listagem-cadastro/` junto das mudanças em `src/`.
+
+### Verificação do fechamento
+
+- Estrutura conferida: `src/api`, `src/components` e `src/pages` presentes; único `fetch` em `src/api/itens.js`.
+- `npm.cmd run lint` e `openspec.cmd validate itens-listagem-cadastro --strict` concluídos sem erros. Os executáveis `.cmd` foram usados porque a política do PowerShell bloqueia os wrappers `.ps1`.
+- Código e artefatos do change registrados nos commits das tasks anteriores, conferidos com `git log --stat`; este fechamento registra a conclusão das verificações.
 
 ## Workflow follow-up
 
