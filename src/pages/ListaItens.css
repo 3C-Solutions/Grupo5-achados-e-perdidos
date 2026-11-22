@@ -6,6 +6,39 @@
   margin-top: 32px;
 }
 
+.lista-itens-erro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 20px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--social-bg);
+  text-align: left;
+}
+
+.lista-itens-erro button {
+  font: inherit;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: 1px solid var(--accent-border);
+  border-radius: 8px;
+  color: var(--text-h);
+  background: var(--accent-bg);
+  cursor: pointer;
+}
+
+.lista-itens-erro button:hover {
+  border-color: var(--accent);
+}
+
+.lista-itens-erro button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 .itens-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));

@@ -8,6 +8,7 @@ export default function ListaItens() {
   const [itens, setItens] = useState([])
   const [carregando, setCarregando] = useState(true)
   const [erro, setErro] = useState('')
+  const [tentativa, setTentativa] = useState(0)
 
   useEffect(() => {
     let ativo = true
@@ -28,7 +29,7 @@ export default function ListaItens() {
     return () => {
       ativo = false
     }
-  }, [])
+  }, [tentativa])
 
   return (
     <main className="lista-itens">
@@ -39,7 +40,19 @@ export default function ListaItens() {
         {carregando ? (
           <p role="status">Carregando itens...</p>
         ) : erro ? (
-          <p role="alert">{erro}</p>
+          <div className="lista-itens-erro" role="alert">
+            <p>{erro}</p>
+            <button
+              type="button"
+              onClick={() => {
+                setCarregando(true)
+                setErro('')
+                setTentativa((valor) => valor + 1)
+              }}
+            >
+              Tentar novamente
+            </button>
+          </div>
         ) : itens.length === 0 ? (
           <p role="status">Não há itens cadastrados.</p>
         ) : (

@@ -8,6 +8,8 @@ export default function NovoItem() {
   const [erro, setErro] = useState('')
 
   async function cadastrar(valores) {
+    setErro('')
+
     try {
       await criarItem(valores)
       navigate('/itens')

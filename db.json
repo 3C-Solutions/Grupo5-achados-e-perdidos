@@ -27,6 +27,13 @@
       "local": "Eu não sei, creio que biblioteca",
       "status": "perdido",
       "id": "wX2iiPM49Ng"
+    },
+    {
+      "titulo": "Copo",
+      "descricao": "Copo 500ml",
+      "local": "Guarulhos",
+      "status": "achado",
+      "id": "RCsH7RdV1ls"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

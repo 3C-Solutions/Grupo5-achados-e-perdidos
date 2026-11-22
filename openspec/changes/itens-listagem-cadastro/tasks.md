@@ -27,8 +27,8 @@
 
 ## 6. Comportamento de erro
 
-- [ ] 6.1 Exibir banner com "Tentar novamente" quando a listagem falha; verificar parando o JSON Server, recarregando `/itens`, religando o servidor e clicando em "Tentar novamente" para ver a lista carregar.
-- [ ] 6.2 Exibir mensagem de falha no cadastro preservando os valores digitados; verificar preenchendo o formulário, parando o JSON Server, enviando e conferindo que os campos continuam preenchidos e o botão permite nova tentativa.
+- [x] 6.1 Exibir banner com "Tentar novamente" quando a listagem falha; verificar parando o JSON Server, recarregando `/itens`, religando o servidor e clicando em "Tentar novamente" para ver a lista carregar.
+- [x] 6.2 Exibir mensagem de falha no cadastro preservando os valores digitados; verificar preenchendo o formulário, parando o JSON Server, enviando e conferindo que os campos continuam preenchidos e o botão permite nova tentativa.
 
 ## 7. Fechamento
 
