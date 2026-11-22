@@ -20,6 +20,14 @@
       "descricao": "Casaco preto tamanho M esquecido após a aula",
       "local": "Auditório",
       "status": "achado"
+    },
+    {
+      "titulo": "Garrafa pet de coca cola caçulinha 5L",
+      "descricao": "Eu perdi minha garrafa",
+      "local": "Eu não sei, creio que biblioteca",
+      "status": "perdido",
+      "id": "wX2iiPM49Ng"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

@@ -22,8 +22,8 @@
 
 ## 5. Cadastro
 
-- [ ] 5.1 Implementar `ItemForm` com os campos título, descrição, local e situação, validando no submit e exibindo erro inline por campo; verificar que enviar o formulário vazio mostra 4 erros e que a aba Network não registra nenhuma requisição.
-- [ ] 5.2 Implementar `NovoItem` chamando `criarItem()` e navegando para `/itens` após sucesso; verificar cadastrando um item e vendo-o na listagem e no `db.json`.
+- [x] 5.1 Implementar `ItemForm` com os campos título, descrição, local e situação, validando no submit e exibindo erro inline por campo; verificar que enviar o formulário vazio mostra 4 erros e que a aba Network não registra nenhuma requisição.
+- [x] 5.2 Implementar `NovoItem` chamando `criarItem()` e navegando para `/itens` após sucesso; verificar cadastrando um item e vendo-o na listagem e no `db.json`.
 
 ## 6. Comportamento de erro
 
